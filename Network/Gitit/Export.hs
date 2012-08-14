@@ -100,7 +100,7 @@ respondSlides templ slideVariant page doc = do
                    _            -> Pandoc.PlainMath
     let opts' = defaultRespOptions {
                      writerSlideVariant = slideVariant
-                    ,writerIncremental = True
+                    ,writerIncremental = False
                     ,writerHtml5 = templ == "dzslides"
                     ,writerHTMLMathMethod = math}
     -- We sanitize the body only, to protect against XSS attacks.

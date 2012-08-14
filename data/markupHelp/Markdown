@@ -1,28 +1,27 @@
 ~~~~~~~~
 # Section heading
-
 ## Subsection
 
 Formatting:  *italics*,
 **bold**, super^script^,
 sub~script~, ~~strikeout~~.
-A line break  
-can be forced with two spaces
+A line break can be forced  
+with two spaces  
 at the end of the line.
 
 > Indented quotation
 
 Links:
-[external](http://google.com),
+[ext](http://google.com),
 [Wiki Link](),
-![image](/img/gitit-banner.png),
-[to heading](#section-heading).
+![image](/img/banner.png),
+[heading](#section-heading).
 
 Indented code block:
 
     #include <stdbool.h>
 
-Or use a delimited code block:
+Or a delimited code block:
 
 ~~~ { .haskell }
 let a = 1:a in head a
@@ -35,7 +34,7 @@ let a = 1:a in head a
 
 1.  ordered
 2.  list
-    a. sublist (indent 4 spaces)
+    a. sublist (indent 4 sp)
     b. another
 3.  item three
 
@@ -43,6 +42,17 @@ term
 :   definition
 orange
 :   orange fruit
+
+<div id="columns">
+<div id="rightcol">
+
+</div> <div id="leftcol">
+
+</div> </div>
+<div id="clearcol"></div>
+
+<span id="mark"> </span>
+
 
 ~~~~~~~~
 
